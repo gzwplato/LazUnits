@@ -5,12 +5,12 @@
 ![TotalDownloads](https://img.shields.io/github/downloads/jasc2v8/pUnits/total.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
-Free Pascal and Lazarus IDE Unit helpers
+Free Pascal and Lazarus IDE Unit helpers for use on Windows
 
 ## Units
 
-1. DebugUnit	Adds a Debug Form and Memo. Debugln('message');
-2. FileUtilWin	Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
+1. DebugUnit    -	Adds a Debug Form and Memo. Features Debugln('message');
+2. FileUtilWin	- Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
   
 ## Development Tools
 

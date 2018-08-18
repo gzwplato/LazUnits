@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
-Adds a debug memo to the project.
+Adds or Removes a debug window with a debug Memo to the project.
 
 Makes it easier to debug FPC/Lazarus projects.
 

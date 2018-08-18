@@ -6,6 +6,7 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
 Adds features to the FPC/Lazarus file copy and delete functions.
+
 CopyFileWin and CopyDirWin will force create the target directory.
 
 ## Help

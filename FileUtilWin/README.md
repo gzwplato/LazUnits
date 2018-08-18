@@ -1,8 +1,6 @@
 # FileUtilWin
 ![Environment](https://img.shields.io/badge/Windows-XP,%20Vista,%207,%208,%2010-brightgreen.svg)
-[![Release](https://img.shields.io/github/release/jasc2v8/pCopy.svg)](https://github.com/jasc2v8/pUnits/FileUtilWin/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![TotalDownloads](https://img.shields.io/github/downloads/jasc2v8/pUnits/FileUtilWin/total.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
 Adds features to the FPC/Lazarus file copy and delete functions.

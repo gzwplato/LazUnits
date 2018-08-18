@@ -20,7 +20,9 @@ Makes it easier to debug FPC/Lazarus projects.
 
 ## Development Tools
 
-This utility was developed using the Lazarus IDE version 1.8.4 with Free Pascal version 3.0.4.  It has been tested on both 32 and 64 bit versions of WinXP, Win7, and Win10 using Virtualbox.
+This utility was developed using the Lazarus IDE version 1.8.4 with Free Pascal version 3.0.4.
+
+It has been tested on both 32 and 64 bit versions of WinXP, Win7, and Win10 using Virtualbox.
 
 ### Donations
 

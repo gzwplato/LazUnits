@@ -7,8 +7,6 @@
 
 Free Pascal and Lazarus IDE Unit helpers for use on Windows
 
-## Units
-
 1. LazCopyOptions - Copy/Backup/Restore IDE and Project Options
 
 2. LazDebugUnit    -	Adds a Debug Form and Memo. Features Debugln('message');

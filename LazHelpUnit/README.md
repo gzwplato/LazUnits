@@ -53,10 +53,5 @@ These could be implemented, but I decided to keep this unit simple.
 ## Development Tools
 
 This utility was developed using the Lazarus IDE version 1.8.4 with Free Pascal version 3.0.4.  It has been tested on both 32 and 64 bit versions of WinXP, Win7, and Win10 using Virtualbox.
-
-### Donations
-
-If this utility is useful, or if the source code helps you in some way, then a small donation would be appreciated.  Just click on the "donation" button above.
-
-Your donation is not tax deductible, but will be used to help promote freeware from myself and other software authors.  
+ 
 

@@ -1,4 +1,4 @@
-# Pascal Units
+# Lazarus Units
 ![Environment](https://img.shields.io/badge/Windows-XP,%20Vista,%207,%208,%2010-brightgreen.svg)
 [![Release](https://img.shields.io/github/release/jasc2v8/pUnits.svg)](https://github.com/jasc2v8/pUnits/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

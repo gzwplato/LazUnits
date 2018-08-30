@@ -1,13 +1,12 @@
-# Lazarus Units
 ![Environment](https://img.shields.io/badge/Windows-XP,%20Vista,%207,%208,%2010-brightgreen.svg)
 [![Release](https://img.shields.io/github/release/jasc2v8/pUnits.svg)](https://github.com/jasc2v8/pUnits/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![TotalDownloads](https://img.shields.io/github/downloads/jasc2v8/pUnits/total.svg)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
-Free Pascal and Lazarus IDE Unit helpers for use on Windows
+# Lazarus Units
 
-## Units
+Free Pascal and Lazarus IDE units for use on Windows.
 
 1. LazCopyOptions - Copy/Backup/Restore IDE and Project Options
 

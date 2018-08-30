@@ -11,6 +11,9 @@ Free Pascal and Lazarus IDE Unit helpers for use on Windows
 
 1. DebugUnit    -	Adds a Debug Form and Memo. Features Debugln('message');
 2. FileUtilWin	- Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
+3. LazHelpUnit  - Adds Adds a help feature to Lazarus Projects with two options:
+	1. Browser 	   (THTMLBrowser)
+	2. File Viewer (THTMLFileViewer)
   
 ## Development Tools
 

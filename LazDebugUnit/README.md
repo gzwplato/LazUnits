@@ -29,4 +29,3 @@ It has been tested on both 32 and 64 bit versions of WinXP, Win7, and Win10 usin
 If this utility is useful, or if the source code helps you in some way, then a small donation would be appreciated.  Just click on the "donation" button above.
 
 Your donation is not tax deductible, but will be used to help promote freeware from myself and other software authors.  
-

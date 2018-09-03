@@ -7,7 +7,7 @@ Adds or Removes a debug window with a debug Memo to the project.
 
 Makes it easier to debug FPC/Lazarus projects.
 
-## Help
+## Methods
 	
 	procedure Debugln(aLine: string);
 	

@@ -1,4 +1,4 @@
-program project1;
+program debugunitmgr;
 
 {$mode objfpc}{$H+}
 
@@ -13,9 +13,10 @@ uses
 {$R *.res}
 
 begin
+  Application.Title:='LazDebugUnitMgr';
   RequireDerivedFormResource:=True;
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMain, frmMain);
   Application.CreateForm(TDebugForm, DebugForm);
   Application.Run;
 end.

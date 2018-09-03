@@ -1,21 +1,19 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html><head>
-<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>help</title>
-
-</head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>help</title></head>
 <body style="font-family: Arial; color: rgb(0, 0, 0); background-color: rgb(204, 255, 255);" alink="#000099" link="#000099" vlink="#990099">
 <h1 style="font-family: Arial;">LazDebugUnit</h1>
 <h2 style="font-family: Arial;">Overview</h2>
 <span style="font-family: Arial;">
-DebugUnitMgr adds or removes a&nbsp;</span><span style="font-family: Arial;">DebugForm</span><span style="font-family: Arial;">&nbsp;to a Lazarus Projects.</span><br><br><span style="font-family: Arial;">The DebugForm consists of the units debugform.pas and debugform.lfm.<br></span><br>
+DebugUnitMgr adds or removes a&nbsp;</span><span style="font-family: Arial;">DebugForm</span><span style="font-family: Arial;">&nbsp;to a Lazarus Project.</span><br><br><span style="font-family: Arial;">The DebugForm consists of the units debugform.pas and debugform.lfm.<br></span><br>
 Currently, debugging support for Free Pacal / Lasarus IDE has limited
-support.<br>
+support on Windows.<br>
 In lieu of a fully functional debugger, the user &nbsp;can debug
 with "old school" methods.<br><br>Examples:<br>
 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-Debugln('Entering procedure Test to debug');<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Result:=Add(2,2);<br>
+Debugln('Entering Function Add to debug');<br>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Result:=Add(2,2);<br>
 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
-Debugln('Exit procedure Test, check for exceptions, result should be: %n ', Result);<br>
+Debugln('Exit Function Add, check for exceptions, result should be: %n ', Result);<br>
 <span style="font-family: Arial;"></span>
 <h2 style="font-family: Arial;">Methods</h2>
 &nbsp;&nbsp;&nbsp;

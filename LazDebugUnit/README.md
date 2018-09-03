@@ -1,6 +1,6 @@
 # DebugUnit
 ![Environment](https://img.shields.io/badge/Windows-XP,%20Vista,%207,%208,%2010-brightgreen.svg)
-[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://unlicense.org)
+[![License](https://img.shields.io/badge/license-unlicense-yellow.svg)](https://unlicense.org)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-red.svg)](https://www.paypal.me/JimDreherHome)
 
 Adds or Removes a debug window with a debug Memo to the project.

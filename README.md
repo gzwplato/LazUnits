@@ -14,7 +14,7 @@ Free Pascal and Lazarus IDE units for use on Windows.
 
 3. LazFileUtilWin	- Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
 
-4. LazHelpUnit  - Adds Adds a help feature to Lazarus Projects with two options: 1) Browser   (THTMLBrowser), and 2)File Viewer (THTMLFileViewer)
+4. LazHelpUnit  - Adds Adds a help feature to Lazarus Projects with two options: 1) Browser   (THTMLBrowser), and 2)File Viewer (THTMLFileViewer).  Views online URLs, local files, embedded resources (embed your help files in your project exe)
   
 ## Development Tools
 

@@ -24,6 +24,44 @@ procedure Debugln(Args: array of Variant);
 procedure Debugln(Fmt:string; Args: array of Const);
 ```
 
+## Examples
+
+```pascal
+Debugln('Unformatted output up to 8 Args of any Type:');
+Debugln('--------------------------------------------');
+Debugln(1,2,3,4,5,6,7,8);
+Debugln('binary=', %010);
+Debugln('boolean=', true);
+Debugln('decimal=', 10);
+Debugln('general=', 3.1415927);
+Debugln('hex=', $0010);
+Debugln('octal =', &0010);
+Debugln('scientific=', 1.9E6);
+Debugln('signed=', -100, ' or ', +100);
+Debugln('string=', 'the quick brown fox');
+Debugln('mixed bin=',%010,',bool=',true,',dec=',10,',gen=',3.1415927);
+
+Debugln(LE+'Unformatted output with Array of Variant:');
+Debugln('-----------------------------------------');
+Debugln(['decimal', -1,true,3.1415,4,5]);
+Debugln(['T1=', true,',T2=',false,',T3=',01.23]);
+
+Debugln(LE+'Formatted output with Array of Const:');
+Debugln('-------------------------------------');
+Debugln('boolean    =%s or %s', [BoolToStr(true,false), BoolToStr(true,true)]);
+Debugln('currency   =%m', [1000000.]);
+Debugln('decimal    =%d', [-1]);
+Debugln('float      =%f', [3.1415927]);
+Debugln('general    =%g', [3.1415927]);
+Debugln('hex        =%x', [-1]);
+Debugln('number     =%n', [1000000.]);
+Debugln('scientific =%e', [1.0e3]);
+Debugln('string     =%s', ['the quick brown fox']);
+Debugln('unsigned   =%u', [-1]);
+Debugln('mixed cur  =%m, dec=%d',[1000000., 10]);
+Debugln('mixed float=%f, num=%n',[3.1415927, 1000000.]);
+```
+
 ## Development Tools
 
 This utility was developed using the Lazarus IDE version 1.8.4 with Free Pascal version 3.0.4.

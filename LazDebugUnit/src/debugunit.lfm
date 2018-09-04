@@ -54,6 +54,13 @@ object DebugForm: TDebugForm
     Height = 489
     Top = 9
     Width = 458
+    Color = clCream
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
     ScrollBars = ssAutoBoth
     TabOrder = 0
   end

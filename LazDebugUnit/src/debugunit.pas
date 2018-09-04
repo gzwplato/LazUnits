@@ -1,4 +1,4 @@
-{ Version 1.0 - Author jasc2v8 at yahoo dot com
+{ Version 2.0 - Author jasc2v8 at yahoo dot com
 
 This is free and unencumbered software released into the public domain.
 
@@ -50,10 +50,18 @@ type
 var
   DebugForm: TDebugForm;
 
-  procedure Debugln(aLine: string);
-  procedure Debugln(aFormat:string; aNumber: integer);
-  procedure Debugln(aFormat:string; aDouble: double);
-  procedure Debugln(aFormat:string; aBoolean: boolean);
+  procedure Debugln(Arg1: Variant);
+  procedure Debugln(Arg1, Arg2: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
+
+  procedure Debugln(Args: array of Variant);
+
+  procedure Debugln(Fmt:string; Args: array of Const);
 
 implementation
 
@@ -61,21 +69,105 @@ implementation
 
 { TDebugForm }
 
-procedure Debugln(aLine: string);
+procedure Debugln(Arg1: Variant);
+var
+  sbuf, sout: string;
 begin
-  DebugForm.Memo.Append(aLine);
+  WriteStr(sbuf,Arg1);  //will write boolean True or False
+  sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
 end;
-procedure Debugln(aFormat:string; aNumber: integer);
+procedure Debugln(Arg1, Arg2: Variant);
+var
+  sbuf, sout: string;
 begin
-  DebugForm.Memo.Append(Format(aFormat, [aNumber]));
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
 end;
-procedure Debugln(aFormat:string; aDouble: double);
+procedure Debugln(Arg1, Arg2, Arg3: Variant);
+var
+  sbuf, sout: string;
 begin
-  DebugForm.Memo.Append(Format(aFormat, [aDouble]));
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
 end;
-procedure Debugln(aFormat:string; aBoolean: boolean);
+procedure Debugln(Arg1, Arg2, Arg3, Arg4: Variant);
+var
+  sbuf, sout: string;
 begin
-  DebugForm.Memo.Append(Format(aFormat, [BoolToStr(aBoolean, true)]));
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg4); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5: Variant);
+var
+  sbuf, sout: string;
+begin
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg4); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg5); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6: Variant);
+var
+  sbuf, sout: string;
+begin
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg4); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg5); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg6); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
+var
+  sbuf, sout: string;
+begin
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg4); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg5); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg6); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg7); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
+var
+  sbuf, sout: string;
+begin
+  WriteStr(sbuf,Arg1); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg2); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg3); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg4); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg5); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg6); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg7); sout:=sout+sbuf;
+  WriteStr(sbuf,Arg8); sout:=sout+sbuf;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Args: array of Variant);
+var
+  i: integer;
+  sbuf, sout: string;
+begin
+  for i:=Low(Args) to High(Args) do begin
+    WriteStr(sbuf, Args[i]);
+    sout:=sout+sbuf;
+  end;
+  DebugForm.Memo.Append(sout);
+end;
+procedure Debugln(Fmt:string; Args: array of Const);
+begin
+  DebugForm.Memo.Append(Format(Fmt, Args));
 end;
 procedure TDebugForm.ButtonClearClick(Sender: TObject);
 begin

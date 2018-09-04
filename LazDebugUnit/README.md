@@ -5,17 +5,22 @@
 
 Adds or Removes a debug window with a debug Memo to the project.
 
-Makes it easier to debug FPC/Lazarus projects.
+Makes it easier to debug FPC/Lazarus projects under Windows.
 
 ## Methods
 	
-	procedure Debugln(aLine: string);
-	
-	procedure Debugln(aFormat:string; aNumber: integer);
-	
-	procedure Debugln(aFormat:string; aDouble: double);
-	
-	procedure Debugln(aFormat:string; aBoolean: boolean);
+  procedure Debugln(Arg1: Variant);
+  procedure Debugln(Arg1, Arg2: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
+  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
+
+  procedure Debugln(Args: array of Variant);
+
+  procedure Debugln(Fmt:string; Args: array of Const);
 
 
 ## Development Tools

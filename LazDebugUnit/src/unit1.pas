@@ -1,4 +1,4 @@
-{ Version 1.0 - Author jasc2v8 at yahoo dot com
+{ Version 2.0 - Author jasc2v8 at yahoo dot com
 
 This is free and unencumbered software released into the public domain.
 
@@ -72,39 +72,43 @@ end;
 
 procedure TfrmMain.btnDemoClick(Sender: TObject);
 begin
-
   DebugForm.Show;
 
-  { if true then show examples }
-  if true then begin
-    Debugln('string=Debugln');
-    Debugln('decimal=%d', 1000);
-    Debugln('float=%10.4f', 1.31415927);
-    Debugln('hex=%x', 16);
-    Debugln('number=%n', 1.314);
-    Debugln('unsigned=%u', 1000);
+  Debugln('Unformatted output up to 8 Args of any Type:');
+  Debugln('--------------------------------------------');
+  Debugln(1,2,3,4,5,6,7,8);
+  Debugln('binary    =', %010);
+  Debugln('boolean   =', true);
+  Debugln('decimal   =', 10);
+  Debugln('general   =', 3.1415927);
+  Debugln('hex       =', $0010);
+  Debugln('octal     =', &0010);
+  Debugln('scientific=', 1.9E6);
+  Debugln('signed    =', -100, ' or ', +100);
+  Debugln('string    =', 'the quick brown fox');
+  Debugln('mixed     bin=',%010,',bool=',true,',dec=',10,',gen=',3.1415927);
 
-    Debugln(LineEnding+'Boolean as String:');
-    Debugln('boolean=%s', true);
-    Debugln('boolean=%s', false);
+  Debugln(LE+'Unformatted output with Array of Variant:');
+  Debugln(   '-----------------------------------------');
+  Debugln(['decimal', -1,true,3.1415,4,5]);
+  Debugln(['T1=', true,',T2=',false,',T3=',01.23]);
 
-    Debugln(LineEnding+'Boolean as String:');
-    Debugln('boolean'+BoolToStr(true,true) );
-    Debugln('boolean'+BoolToStr(false,true) );
+  Debugln(LE+'Formatted output with Array of Const:');
+  Debugln(   '-------------------------------------');
+  Debugln('boolean   =%s or %s', [BoolToStr(true,false), BoolToStr(true,true)]);
+  Debugln('currency  =%m', [1000000.]);
+  Debugln('decimal   =%d', [-1]);
+  Debugln('float     =%f', [3.1415927]);
+  Debugln('general   =%g', [3.1415927]);
+  Debugln('hex       =%x', [-1]);
+  Debugln('number    =%n', [1000000.]);
+  Debugln('scientific=%e', [1.0e3]);
+  Debugln('string    =%s', ['the quick brown fox']);
+  Debugln('unsigned  =%u', [-1]);
+  Debugln('mixed     cur  =%m, dec=%d',[1000000., 10]);
+  Debugln('mixed     float=%f, num=%n',[3.1415927, 1000000.]);
 
-    Debugln(LineEnding+'Boolean as String Signed Decimal:');
-    Debugln('boolean'+BoolToStr(true) );
-    Debugln('boolean'+BoolToStr(false) );
-
-    Debugln(LineEnding+'Boolean as Decimal:');
-    Debugln('boolean=%i', Byte(true));
-    Debugln('boolean=%d', Ord(false));
-
-    Debugln(LineEnding+'Boolean as Decimal String:');
-    Debugln('boolean='+true.ToString);
-    Debugln('boolean='+false.ToString);
-
-  end;
+  DebugForm.Memo.SelStart:=0; //scroll to top
 
 end;
 procedure TfrmMain.DirectoryEditChange(Sender: TObject);

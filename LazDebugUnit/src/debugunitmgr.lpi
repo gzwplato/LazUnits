@@ -9,6 +9,7 @@
       <Title Value="LazDebugUnitMgr"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
     </General>
     <BuildModes Count="5">
       <Item1 Name="Default" Default="True"/>
@@ -179,7 +180,7 @@
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <DestinationDirectory Value="D:\DEV\Work\pascal\~Archive\LazDebugUnit_0.5"/>
+      <DestinationDirectory Value="D:\DEV\Work\pascal\~Published\LazDebugUnit_2.0"/>
     </PublishOptions>
     <RunParams>
       <local>

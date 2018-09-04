@@ -9,6 +9,7 @@ Makes it easier to debug FPC/Lazarus projects under Windows.
 
 ## Methods
 	
+	```pascal
 	procedure Debugln(Arg1: Variant);
   	procedure Debugln(Arg1, Arg2: Variant);
 	procedure Debugln(Arg1, Arg2, Arg3: Variant);
@@ -18,10 +19,10 @@ Makes it easier to debug FPC/Lazarus projects under Windows.
 	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
 	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
 
-  procedure Debugln(Args: array of Variant);
+	procedure Debugln(Args: array of Variant);
 
-  procedure Debugln(Fmt:string; Args: array of Const);
-
+	procedure Debugln(Fmt:string; Args: array of Const);
+	```
 
 ## Development Tools
 

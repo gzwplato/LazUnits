@@ -9,14 +9,14 @@ Makes it easier to debug FPC/Lazarus projects under Windows.
 
 ## Methods
 	
-  procedure Debugln(Arg1: Variant);
-  procedure Debugln(Arg1, Arg2: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3, Arg4: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
-  procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
+	procedure Debugln(Arg1: Variant);
+  	procedure Debugln(Arg1, Arg2: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3, Arg4: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7: Variant);
+	procedure Debugln(Arg1, Arg2, Arg3, Arg4, Arg5, Arg6, Arg7, Arg8: Variant);
 
   procedure Debugln(Args: array of Variant);
 

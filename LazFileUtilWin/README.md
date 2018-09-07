@@ -7,7 +7,7 @@ Adds features to the FPC/Lazarus file copy and delete functions.
 
 CopyFileWin and CopyDirWin will force create the target directory.
 
-## Help
+## Methods
 	
 	function ChildPath(aPath: string): string;
 	

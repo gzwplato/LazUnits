@@ -8,7 +8,7 @@ Demos:
 
 1. ThreadUnit         - Start and stop 1 or more threads
 2. ThreadUnitArray    - Start and stop 8 threads using an array
-3. ThreadUnitCopyFile - Simulate copy of a large file
+3. ThreadUnitCopyFile - Thread 1 simulated work, Thread 2 simulated copy of a large file
 
 ## Features
 

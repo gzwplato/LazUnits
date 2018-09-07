@@ -6,7 +6,7 @@
 
 # Lazarus Units
 
-Free Pascal and Lazarus IDE units for use on Windows.
+Free Pascal and Lazarus IDE units for use on Windows, but could be easily adapted to other OS platforms.
 
 1. LazCopyOptions - Copy/Backup/Restore IDE and Project Options
 

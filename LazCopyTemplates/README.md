@@ -14,15 +14,15 @@ It must start with the word "Template" (not case sensitive).
 
 ## Examples
 
-1. TemplateDebugProject - a pre-configured Lazarus project with a LazDebugUnit (included).
+1. ./TemplateDebugProject - a pre-configured Lazarus project with a LazDebugUnit (included).
 
-2. TemplateHelpProject - a pre-configured Lazarus project with a LazHelpUnit.
+2. ./TemplateHelpProject - a pre-configured Lazarus project with a LazHelpUnit.
 
-3. TemplateThreadProject - a pre-configured Lazarus project with a LazThreadUnit.
+3. ./TemplateThreadProject - a pre-configured Lazarus project with a LazThreadUnit.
 
-4. TemplateWebProject - a pre-configured Lazarus project with your favorite web framework components.
+4. ./TemplateWebProject - a pre-configured Lazarus project with your favorite web framework components.
 
-5. TemplateWhateverProject - you get the idea...
+5. ./TemplateWhateverProject - you get the idea...
 
 ## Development Tools
 

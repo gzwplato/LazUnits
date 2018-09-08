@@ -33,16 +33,14 @@ implementation
 
 { TForm1 }
 
+procedure TForm1.ButtonOKClick(Sender: TObject);
+begin
+
+end;
 procedure TForm1.FormShow(Sender: TObject);
 begin
 DebugForm.Show;
 Debugln('Ready');
 end;
-
-procedure TForm1.ButtonOKClick(Sender: TObject);
-begin
-
-end;
-
 end.
 

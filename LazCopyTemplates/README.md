@@ -4,7 +4,7 @@
 
 1. Copy pre-configured template directories as a new project directory.
 
-2. Opens the template directory in the system browser.
+2. Opens the template directory in the system file browser.
 
 ## Template Directory
 

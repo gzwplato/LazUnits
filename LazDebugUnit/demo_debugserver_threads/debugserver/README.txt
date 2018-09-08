@@ -12,13 +12,11 @@ The project file debugserver.lpi is modified as follows:
 
 Open the project file, choose build mode 'release', then compile.
 
-Copy the exe to the demo folder:
+Copy the exe to fpc bin directory:
 	Windows cmd: copyexe.cmd
-	Manually   : copy debugserver.exe ../dbugsrv.exe
-				(or to the fpc bin folder)
 				
 Notes:
-	A bug in dbintf will start 'dbugsrv' versus 'debugserver'
+	A bug in dbintf will attempt to start 'dbugsrv' versus 'debugserver'
 	Alternatively, start debugserver as indicated here:
 		http://wiki.freepascal.org/DebugServer
 	Set it up as an external tool:

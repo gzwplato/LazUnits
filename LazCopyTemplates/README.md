@@ -14,7 +14,7 @@ It must start with the word "Template" (not case sensitive).
 
 ## Examples
 
-1. TemplateDebugProject - a pre-configured Lazarus project with a LazDebugUnit.
+1. TemplateDebugProject - a pre-configured Lazarus project with a LazDebugUnit (included).
 
 2. TemplateHelpProject - a pre-configured Lazarus project with a LazHelpUnit.
 

@@ -10,7 +10,7 @@ Free Pascal and Lazarus IDE units for use on Windows, but could be easily adapte
 
 1. LazCopyOptions - Copy/Backup/Restore IDE and Project Options
 
-2. LazDebugUnit    -	Adds a Debug Form with a Memo to write debug messages. Features Debugln('message'). DebugUnitMgr utility adds/removes DebugUnit from a project;
+2. LazDebugUnit    -	Adds a Debug Form with a Memo to write debug messages. DebugUnitMgr utility adds/removes DebugUnit from a project;
 
 3. LazFileUtilWin	- Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
 

@@ -12,7 +12,8 @@ Free Pascal and Lazarus IDE units for use on Windows, but could be easily adapte
 
 1. LazCopyTemplates  - Copy pre-configured template directories as a new project directory.
 
-1. LazDebugUnit    -	Adds a Debug Form with a Memo to write debug messages. DebugUnitMgr utility adds/removes DebugUnit from a project;
+1. LazDebugUnit - Provides a debug form in a separate window to help debug Lazarus projects. Several types of debug forms are included:
+debugform, debugserver, and debugserver_threads.
 
 1. LazFileUtilWin	- Enhancements to CopyDir, DelDir, CopyFile, DelFile for use on Windows
 

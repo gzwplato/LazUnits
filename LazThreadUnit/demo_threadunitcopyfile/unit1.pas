@@ -57,7 +57,7 @@ type
 
   public
     Thread1: TThreadUnit;
-    Thread2: TThreadUnit;
+    Thread2: TThreadCopyFile;
 
   end;
 

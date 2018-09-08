@@ -73,7 +73,7 @@ begin
   { simulate some work }
   for i:=1 to 10 do begin
     if Terminated then break;
-    Sleep(Random(500+500);
+    Sleep(Random(500)+500);
     Status:=Name+' count: '+i.ToString;
     Synchronize(@Update);
   end;

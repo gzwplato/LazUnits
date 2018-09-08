@@ -58,15 +58,15 @@ uses Unit1;
 
 { TThreadUnit }
 
-procedure TThreadUnit.OnTerminate;
+procedure TThreadCopyFile.OnTerminate;
 begin
   Form1.Memo1.Append(Name+': Terminated');
 end;
-procedure TThreadUnit.Update;
+procedure TThreadCopyFile.Update;
 begin
   Form1.Memo1.Append(Status);
 end;
-procedure TThreadUnit.Execute;
+procedure TThreadCopyFile.Execute;
 const
   nLoops=20000;
 var
@@ -119,7 +119,7 @@ begin
   Synchronize(@OnTerminate);
 
 end;
-constructor TThreadUnit.Create(CreateSuspended: Boolean);
+constructor TThreadCopyFile.Create(CreateSuspended: Boolean);
 begin
   inherited Create(CreateSuspended);
   FreeOnTerminate := False;

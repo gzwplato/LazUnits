@@ -111,8 +111,6 @@ begin
   sourcePath:=CleanAndExpandFilename(sourcePath);
   targetPath:=CleanAndExpandFilename(targetPath);
 
-  //file    targetPath:='E:\TEMP\backup';
-  //folder  targetPath:='E:\TEMP\backup\';
   if FilenameIsDir(targetPath) then begin
     targetDir:=targetPath;
     targetPath:=targetDir+ExtractFileName(sourcePath);

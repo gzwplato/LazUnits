@@ -104,7 +104,6 @@ begin
 
       if ResName<>'' then begin
         Resources.Add(ResName+'='+ExtractFileName(ResValue));
-        //ShowMessage('debug browswer ResName='+ResName+', ResValue='+ResValue);
       end;
     end;
   finally
@@ -156,3 +155,4 @@ begin
 end;
 
 end.
+

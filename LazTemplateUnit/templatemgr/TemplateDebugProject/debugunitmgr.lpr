@@ -1,4 +1,4 @@
-program project1;
+program debugunitmgr;
 
 {$mode objfpc}{$H+}
 
@@ -8,14 +8,16 @@ uses
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms, unit1
-  { you can add units after this } ;
+  { you can add units after this } , DebugUnit;
 
 {$R *.res}
 
 begin
+  Application.Title:='LazDebugUnitMgr';
   RequireDerivedFormResource:=True;
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TDebugForm, DebugForm);
   Application.Run;
 end.
 

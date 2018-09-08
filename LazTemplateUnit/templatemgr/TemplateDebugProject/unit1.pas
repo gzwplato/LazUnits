@@ -33,7 +33,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  FileCtrl, EditBtn, strutils, lclintf, htmlbrowser, DebugUnit;
+  FileCtrl, EditBtn, strutils, lclintf, DebugUnit;
 
 type
 
@@ -58,7 +58,6 @@ const
   LE=LineEnding;
 var
   frmMain: TfrmMain;
-  Viewer: THTMLBrowserViewer;
 
 implementation
 
@@ -68,8 +67,7 @@ implementation
 
 procedure TfrmMain.btnHelpClick(Sender: TObject);
 begin
-  //lclintf.OpenURL('help.html');
-  Viewer.OpenResource('help.html');
+  lclintf.OpenURL('help.html');
 end;
 
 procedure TfrmMain.btnDemoClick(Sender: TObject);
@@ -304,8 +302,6 @@ procedure TfrmMain.FormShow(Sender: TObject);
 begin
   //DebugForm.Show;
   //Debugln('Ready');
-  Viewer:=THTMLBrowserViewer.Create;
-  Viewer.ExtractResFiles;
   FileListBox.Clear;
 end;
 

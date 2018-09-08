@@ -17,6 +17,8 @@ Free Pascal and Lazarus IDE units for use on Windows, but could be easily adapte
 4. LazHelpUnit  - Adds a help feature to Lazarus Projects with two options: 1) Browser   (THTMLBrowser), and 2)File Viewer (THTMLFileViewer).  Views online URLs, local files, and resources (embed your help files in your project exe)
   
 5. LazThreadUnit  - A simple thread class for use with GUI projects.
+
+6. LazTemplateUnit  - Saves pre-configured template directories as a new project directory.
   
 ## Development Tools
 

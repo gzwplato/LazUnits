@@ -4,7 +4,7 @@ object Form1: TForm1
   Top = 0
   Width = 680
   ActiveControl = Memo1
-  Caption = 'FileUtilWin'
+  Caption = 'FileUtilWin Demo'
   ClientHeight = 480
   ClientWidth = 680
   OnClick = ButtonCopyFileClick
@@ -20,10 +20,10 @@ object Form1: TForm1
     TabOrder = 0
   end
   object ButtonCopyFile: TButton
-    Left = 584
+    Left = 576
     Height = 24
     Top = 448
-    Width = 74
+    Width = 80
     Caption = 'Copy File'
     OnClick = ButtonCopyFileClick
     TabOrder = 1
@@ -67,19 +67,19 @@ object Form1: TForm1
     TabOrder = 3
   end
   object ButtonClear: TButton
-    Left = 11
+    Left = 16
     Height = 24
     Top = 446
-    Width = 52
+    Width = 80
     Caption = 'Clear'
     OnClick = ButtonClearClick
     TabOrder = 4
   end
   object ButtonCopyDir: TButton
-    Left = 424
+    Left = 480
     Height = 25
     Top = 448
-    Width = 54
+    Width = 80
     Caption = 'Copy Dir'
     OnClick = ButtonCopyDirClick
     TabOrder = 5

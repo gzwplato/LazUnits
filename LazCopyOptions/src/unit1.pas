@@ -281,7 +281,7 @@ begin
 
 end;
 procedure TMainForm.DirSourceChange(Sender: TObject);
-{ update the OptonFileList: TFileLIstBox after user changes directory }
+{ update the OptonFileList: TFileListBox after user changes directory }
 var
   ConfigFile: string;
   i: integer;

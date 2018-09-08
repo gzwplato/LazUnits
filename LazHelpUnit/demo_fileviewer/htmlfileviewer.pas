@@ -121,7 +121,6 @@ begin
 
       if ResName<>'' then begin
         Resources.Add(ResName+'='+ExtractFileName(ResValue));
-        //ShowMessage('debug file ResName='+ResName+', ResValue='+ResValue);
       end;
 
     end;

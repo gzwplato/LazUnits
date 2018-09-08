@@ -10,7 +10,6 @@ object frmMain: TfrmMain
   Color = clTeal
   OnShow = FormShow
   Position = poScreenCenter
-  LCLVersion = '1.8.4.0'
   Visible = False
   object btnHelp: TButton
     Left = 40

@@ -10,7 +10,7 @@ Free Pascal and Lazarus IDE units for use on Windows, but could be easily adapte
 
 1. LazCopyOptions - Copy/Backup/Restore IDE and Project Options
 
-1. LazCopyTemplates  - Saves pre-configured template directories as a new project directory.
+1. LazCopyTemplates  - Copy pre-configured template directories as a new project directory.
 
 1. LazDebugUnit    -	Adds a Debug Form with a Memo to write debug messages. DebugUnitMgr utility adds/removes DebugUnit from a project;
 

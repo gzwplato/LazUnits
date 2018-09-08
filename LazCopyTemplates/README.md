@@ -2,7 +2,7 @@
 
 ## Features
 
-1. Saves a template directory as a new project directory.
+1. Copy pre-configured template directories as a new project directory.
 
 2. Opens the template directory in the system browser.
 

@@ -5,7 +5,7 @@ unit Unit1;
 interface
 
 uses
-  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls, DebugUnit;
+  Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls;
 
 type
 
@@ -35,8 +35,6 @@ implementation
 
 procedure TForm1.FormShow(Sender: TObject);
 begin
-DebugForm.Show;
-Debugln('Ready');
 end;
 
 procedure TForm1.ButtonOKClick(Sender: TObject);
